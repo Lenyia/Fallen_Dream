@@ -452,6 +452,7 @@ int main(int argc, char **argv)
 	al_destroy_bitmap(game.image);
 	al_destroy_bitmap(enemy.image);
 	al_destroy_bitmap(bullet.image);
+	//al_destroy_sample(sample);
 	al_destroy_event_queue(event_queue);
 	al_destroy_display(DISPLAY);
 
